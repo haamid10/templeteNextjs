@@ -51,7 +51,7 @@ export default function Home() {
                <Image src={Si}  alt="dd" layout='fill' objectFit='cover'/>
           </div>
         </section>
-        {/* main */}
+        {/* header conernt end */}
 
         <section>
           <div>
@@ -95,6 +95,16 @@ export default function Home() {
                 <p className='text-gray-800 oy-1'>Photoshop</p>
                 <p className='text-gray-800 oy-1'>Illustrator</p>
             </div>
+          </div>
+        </section>
+        {/* service end */}
+        <section>
+          <div>
+            <h3 className='text-3xl py-1'>Portafolio</h3>
+            <p className='text-md py-2 leading-8 text-gray-700 '>
+              Lorem ipsum dolor sit <span className='text-teal-500 '>Agency</span> amet consectetur adipisicing elit. Asperiores, voluptatem sint repellendus magni dolorem minus corporis debitis hic a consectetur sapiente voluptas ducimus obcaecati error nam quia vel unde aliquam!
+            </p> 
+            <p className='text-md py-2 leading-8 text-gray-800   dark:text-gray-200'>Lorem ipsum dolor sit amet consectetur adipisicing elit. In neque deserunt commod,dolorem eius impedit. Enim, ipsum? Sequi, exercitationem quo.</p>
           </div>
         </section>
          </main>
