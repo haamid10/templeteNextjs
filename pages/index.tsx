@@ -62,10 +62,10 @@ export default function Home() {
             <p className='text-md py-2 leading-8 text-gray-800   dark:text-gray-200'>Lorem ipsum dolor sit amet consectetur adipisicing elit. In neque deserunt commod,dolorem eius impedit. Enim, ipsum? Sequi, exercitationem quo.</p>
           </div>
           <div>
-            <div>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
               <Image src={Des} alt=''/>
-                <h3>Beautiful Design</h3>
-                <p>
+                <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Design</h3>
+                <p className='py-2'>
                   Creating elegent designs suited for yuor needs following code design heory.
                 </p>
                 <h4>Design tools I use</h4>
