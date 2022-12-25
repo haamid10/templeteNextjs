@@ -7,6 +7,9 @@ import {
   } from 'react-icons/ai'
   import Image from 'next/image'
   import Si from "../public/Sii.png"
+  import Des from "../public/Des.png"
+  import Code from "../public/code.png"
+  import Cons from "../public/Cons.png"
 
 
 // const inter = Inter({ subsets: ['latin'] })
@@ -45,9 +48,25 @@ export default function Home() {
             <AiFillTwitterCircle/>
           </div>
           <div className='relative mx-auto  bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden'>
-               <Image src={Si}  alt="dd" layout='fill' objectFit='cover'/> 
-                
-              
+               <Image src={Si}  alt="dd" layout='fill' objectFit='cover'/>
+          </div>
+        </section>
+        {/* main */}
+
+        <section>
+          <div>
+            <h3 className='text-3xl py-1'>Services I offer</h3>
+            <p className='text-md py-2 leading-8 text-gray-700 '>
+              Lorem ipsum dolor sit <span className='text-teal-500 '>Agency</span> amet consectetur adipisicing elit. Asperiores, voluptatem sint repellendus magni dolorem minus corporis debitis hic a consectetur sapiente voluptas ducimus obcaecati error nam quia vel unde aliquam!
+            </p> 
+            <p className='text-md py-2 leading-8 text-gray-800   dark:text-gray-200'>Lorem ipsum dolor sit amet consectetur adipisicing elit. In neque deserunt commod,dolorem eius impedit. Enim, ipsum? Sequi, exercitationem quo.</p>
+          </div>
+          <div>
+            <div>
+              <Image src={Des} alt=''/>
+              <Image src={Code} alt=''/>
+              <Image src={Cons} alt=''/>
+            </div>
           </div>
         </section>
          </main>
