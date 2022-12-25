@@ -10,6 +10,13 @@ import {
   import Des from "../public/Des.png"
   import Code from "../public/code.png"
   import Cons from "../public/Cons.png"
+  import Web1 from "../public/Web1.png"
+  import Web2 from "../public/Web2.png"
+  import Web3 from "../public/Web3.png"
+  import Web4 from "../public/Web1.png"
+  import Web5 from "../public/Web5.png"
+  import Web6 from "../public/Web6.png"
+
 
 
 // const inter = Inter({ subsets: ['latin'] })
@@ -62,7 +69,7 @@ export default function Home() {
             <p className='text-md py-2 leading-8 text-gray-800   dark:text-gray-200'>Lorem ipsum dolor sit amet consectetur adipisicing elit. In neque deserunt commod,dolorem eius impedit. Enim, ipsum? Sequi, exercitationem quo.</p>
           </div>
           <div>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+            <div className='text-center object-center shadow-lg p-10 rounded-xl my-10'>
               <Image src={Des} alt='' width={100} height={100}/>
                 <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Des ign</h3>
                 <p className='py-2'>
@@ -105,6 +112,9 @@ export default function Home() {
               Lorem ipsum dolor sit <span className='text-teal-500 '>Agency</span> amet consectetur adipisicing elit. Asperiores, voluptatem sint repellendus magni dolorem minus corporis debitis hic a consectetur sapiente voluptas ducimus obcaecati error nam quia vel unde aliquam!
             </p> 
             <p className='text-md py-2 leading-8 text-gray-800   dark:text-gray-200'>Lorem ipsum dolor sit amet consectetur adipisicing elit. In neque deserunt commod,dolorem eius impedit. Enim, ipsum? Sequi, exercitationem quo.</p>
+          </div>
+          <div>
+            <div><Image src={Web1} alt=""/></div>
           </div>
         </section>
          </main>
