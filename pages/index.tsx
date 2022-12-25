@@ -63,12 +63,34 @@ export default function Home() {
           </div>
           <div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10'>
-              <Image src={Des} alt=''/>
-                <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Design</h3>
+              <Image src={Des} alt='' width={100} height={100}/>
+                <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Des ign</h3>
                 <p className='py-2'>
                   Creating elegent designs suited for yuor needs following code design heory.
                 </p>
-                <h4>Design tools I use</h4>
+                <h4 className='py-2  text-teal-600'>Design tools I use</h4>
+                <p className='text-gray-800 oy-1'>Figma </p>
+                <p className='text-gray-800 oy-1'>Photoshop</p>
+                <p className='text-gray-800 oy-1'>Illustrator</p>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+              <Image src={Code} alt='' width={100} height={100}/>
+                <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Des ign</h3>
+                <p className='py-2'>
+                  Creating elegent designs suited for yuor needs following code design heory.
+                </p>
+                <h4 className='py-2  text-teal-600'>Design tools I use</h4>
+                <p className='text-gray-800 oy-1'>Figma </p>
+                <p className='text-gray-800 oy-1'>Photoshop</p>
+                <p className='text-gray-800 oy-1'>Illustrator</p>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+              <Image src={Cons} alt='' width={100} height={100}/>
+                <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Des ign</h3>
+                <p className='py-2'>
+                  Creating elegent designs suited for yuor needs following code design heory.
+                </p>
+                <h4 className='py-2  text-teal-600'>Design tools I use</h4>
                 <p className='text-gray-800 oy-1'>Figma </p>
                 <p className='text-gray-800 oy-1'>Photoshop</p>
                 <p className='text-gray-800 oy-1'>Illustrator</p>
