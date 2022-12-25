@@ -64,8 +64,14 @@ export default function Home() {
           <div>
             <div>
               <Image src={Des} alt=''/>
-              <Image src={Code} alt=''/>
-              <Image src={Cons} alt=''/>
+                <h3>Beautiful Design</h3>
+                <p>
+                  Creating elegent designs suited for yuor needs following code design heory.
+                </p>
+                <h4>Design tools I use</h4>
+                <p className='text-gray-800 oy-1'>Figma </p>
+                <p className='text-gray-800 oy-1'>Photoshop</p>
+                <p className='text-gray-800 oy-1'>Illustrator</p>
             </div>
           </div>
         </section>
