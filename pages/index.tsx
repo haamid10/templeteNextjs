@@ -31,7 +31,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className='bg-white px-10 md:px-20 lg:px-40'>
+      <main className='bg-white px-10 md:px-20 lg:px-40 '>
         <section className='  min-h-screen '>
           <nav className='py-10 mb-12 flex justify-between '>
             <h1 className='text-xl font-burtons '>Haamid apdi</h1>
@@ -41,11 +41,11 @@ export default function Home() {
             </ul>
           </nav>
           <div className=' text-center p-10 '>
-            <h2 className='text-5xl py-2 text-teal-500 font-medium'>
+            <h2 className='text-5xl py-2 text-teal-500 font-suii font-medium md:text-6xl'>
               Haamid apdi
             </h2>
-            <h3 className='text-2xl py-2'>FullStack developer</h3>
-            <p className='text-md py-5 leading-8 text-gray-800'>
+            <h3 className='text-2xl py-2 md:text-3xl'>FullStack developer</h3>
+            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl  mx-auto'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, architecto. Possimus unde natus non consequuntur consectetur quos totam obcaecati dicta libero aperiam laudantium numquam sed, est perspiciatis dignissimos reiciendis! Libero.
             </p>
           </div>
@@ -54,7 +54,7 @@ export default function Home() {
             <AiFillLinkedin/>
             <AiFillTwitterCircle/>
           </div>
-          <div className='relative mx-auto  bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden'>
+          <div className='relative mx-auto  bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
                <Image src={Si}  alt="dd" layout='fill' objectFit='cover'/>
           </div>
         </section>
@@ -66,11 +66,11 @@ export default function Home() {
             <p className='text-md py-2 leading-8 text-gray-700 '>
               Lorem ipsum dolor sit <span className='text-teal-500 '>Agency</span> amet consectetur adipisicing elit. Asperiores, voluptatem sint repellendus magni dolorem minus corporis debitis hic a consectetur sapiente voluptas ducimus obcaecati error nam quia vel unde aliquam!
             </p> 
-            <p className='text-md py-2 leading-8 text-gray-800   dark:text-gray-200'>Lorem ipsum dolor sit amet consectetur adipisicing elit. In neque deserunt commod,dolorem eius impedit. Enim, ipsum? Sequi, exercitationem quo.</p>
+            <p className=' text-md py-2 leading-8 text-gray-800   dark:text-gray-200'>Lorem ipsum dolor sit amet consectetur adipisicing elit. In neque deserunt commod,dolorem eius impedit. Enim, ipsum? Sequi, exercitationem quo.</p>
           </div>
-          <div>
-            <div className='text-center object-center shadow-lg p-10 rounded-xl my-10'>
-              <Image src={Des} alt='' width={100} height={100}/>
+          <div className='lg:flex gap-10'>
+            <div className='flex flex-col items-center text-center object-center shadow-lg p-10 rounded-xl my-10 '>
+              <Image  src={Des} alt='' width={100} height={100}/>
                 <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Des ign</h3>
                 <p className='py-2'>
                   Creating elegent designs suited for yuor needs following code design heory.
@@ -80,8 +80,8 @@ export default function Home() {
                 <p className='text-gray-800 oy-1'>Photoshop</p>
                 <p className='text-gray-800 oy-1'>Illustrator</p>
             </div>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
-              <Image src={Code} alt='' width={100} height={100}/>
+            <div className='flex flex-col items-center text-center shadow-lg p-10 rounded-xl my-10'>
+              <Image  src={Code} alt='' width={100} height={100}/>
                 <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Des ign</h3>
                 <p className='py-2'>
                   Creating elegent designs suited for yuor needs following code design heory.
@@ -91,8 +91,8 @@ export default function Home() {
                 <p className='text-gray-800 oy-1'>Photoshop</p>
                 <p className='text-gray-800 oy-1'>Illustrator</p>
             </div>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
-              <Image src={Cons} alt='' width={100} height={100}/>
+            <div className='flex flex-col items-center text-center shadow-lg p-10 rounded-xl my-10'>
+              <Image  src={Cons} alt='' width={100} height={100}/>
                 <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Des ign</h3>
                 <p className='py-2'>
                   Creating elegent designs suited for yuor needs following code design heory.
@@ -108,21 +108,22 @@ export default function Home() {
         <section>
           <div>
             <h3 className='text-3xl py-1'>Portafolio</h3>
-            <p className='text-md py-2 leading-8 text-gray-700 '>
+            <p className='text-md py-2 leading-8 text-gray-700'>
               Lorem ipsum dolor sit <span className='text-teal-500 '>Agency</span> amet consectetur adipisicing elit. Asperiores, voluptatem sint repellendus magni dolorem minus corporis debitis hic a consectetur sapiente voluptas ducimus obcaecati error nam quia vel unde aliquam!
             </p> 
             <p className='text-md py-2 leading-8 text-gray-800   dark:text-gray-200'>Lorem ipsum dolor sit amet consectetur adipisicing elit. In neque deserunt commod,dolorem eius impedit. Enim, ipsum? Sequi, exercitationem quo.</p>
           </div>
-          <div>
-            <div><Image src={Web1} alt=""/></div>
-            <div><Image src={Web2} alt=""/></div>
-            <div><Image src={Web3} alt=""/></div>
-            <div><Image src={Web4} alt=""/></div>
-            <div><Image src={Web5} alt=""/></div>
-            <div><Image src={Web6} alt=""/></div>
+          <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap '>
+            <div className='basis-1/3 flex-1'><Image className='rounded-lg object-cover'   src={Web1} alt=""/></div>
+             <div className=' basis-1/3 flex-1'>
+              <Image src= {Web2 } className='rounded-lg object-cover'    alt=""  /></div>
+            <div className=' basis-1/3 flex-1'><Image className='rounded-lg object-cover'    src= {Web3 } alt=""  /></div>
+            <div className=' basis-1/3 flex-1'><Image className='rounded-lg object-cover'   src= {Web4 } alt=""  /></div>
+            <div className=' basis-1/3 flex-1'><Image className='rounded-lg object-cover'    src= {Web5 } alt=""  /></div>
+            <div className=' basis-1/3 flex-1'><Image className='rounded-lg object-cover'    src= {Web6 } alt=""  layout='responsive'/></div>
           </div>
-        </section>
-         </main>
+          </section>
+          </main>
     </>
   )
 }
