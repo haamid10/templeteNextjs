@@ -16,6 +16,7 @@ import {
   import Web4 from "../public/Web1.png"
   import Web5 from "../public/Web5.png"
   import Web6 from "../public/Web6.png"
+  import Haami from "../public/Haami.jpg"
 
 
 
@@ -34,10 +35,10 @@ export default function Home() {
       <main className='bg-white px-10 md:px-20 lg:px-40 '>
         <section className='  min-h-screen '>
           <nav className='py-10 mb-12 flex justify-between '>
-            <h1 className='text-xl font-burtons '>Haamid apdi</h1>
+            <h1 className='text-2xl font-burtons '>Haamid apdi</h1>
             <ul className='flex items-center'>
               <li><BsFillMoonStarsFill className='cursor-pointer'/></li>
-              <li><a className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 font-suii font-bold' href="">Resume</a></li>
+              <li><a className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 font-suii font-bold' href="./">Resume</a></li>
             </ul>
           </nav>
           <div className=' text-center p-10 '>
@@ -54,13 +55,13 @@ export default function Home() {
             <AiFillLinkedin/>
             <AiFillTwitterCircle/>
           </div>
-          <div className='relative mx-auto  bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
-               <Image src={Si}  alt="dd" layout='fill' objectFit='cover'/>
+          <div className='relative mx-auto bottom-4  bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
+               <Image src={Haami}  alt="dd" layout='fill' objectFit='cover'/>
           </div>
         </section>
         {/* header conernt end */}
 
-        <section>
+        <section className='mt-44 py-12'>
           <div>
             <h3 className='text-3xl py-1'>Services I offer</h3>
             <p className='text-md py-2 leading-8 text-gray-700 '>
